@@ -9129,7 +9129,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.9657143, y: 1}
+    m_SensorSize: {x: 2.1653333, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -12085,6 +12085,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 296475732, guid: 7faba56088fb09c47bf67edbcae2df54, type: 3}
+      propertyPath: m_Name
+      value: Dust Trail
+      objectReference: {fileID: 0}
+    - target: {fileID: 296475735, guid: 7faba56088fb09c47bf67edbcae2df54, type: 3}
+      propertyPath: looping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 296475735, guid: 7faba56088fb09c47bf67edbcae2df54, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1414566349870552809, guid: 7faba56088fb09c47bf67edbcae2df54, type: 3}
       propertyPath: m_Name
       value: Player
@@ -12094,8 +12106,24 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 939841821}
     - target: {fileID: 1414566349870552818, guid: 7faba56088fb09c47bf67edbcae2df54, type: 3}
-      propertyPath: jumpSound
+      propertyPath: dustTrail
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1414566349870552818, guid: 7faba56088fb09c47bf67edbcae2df54, type: 3}
+      propertyPath: dustTrailColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1414566349870552818, guid: 7faba56088fb09c47bf67edbcae2df54, type: 3}
+      propertyPath: dustTrailColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1414566349870552818, guid: 7faba56088fb09c47bf67edbcae2df54, type: 3}
+      propertyPath: dustTrailColor.g
+      value: 0.5291431
+      objectReference: {fileID: 0}
+    - target: {fileID: 1414566349870552818, guid: 7faba56088fb09c47bf67edbcae2df54, type: 3}
+      propertyPath: dustTrailColor.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1414566349870552821, guid: 7faba56088fb09c47bf67edbcae2df54, type: 3}
       propertyPath: m_RootOrder
@@ -12139,18 +12167,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1414566349870552821, guid: 7faba56088fb09c47bf67edbcae2df54, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2904966724847081036, guid: 7faba56088fb09c47bf67edbcae2df54, type: 3}
-      propertyPath: Loop
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2904966724847081036, guid: 7faba56088fb09c47bf67edbcae2df54, type: 3}
-      propertyPath: m_Volume
-      value: 0.35
-      objectReference: {fileID: 0}
-    - target: {fileID: 2904966724847081036, guid: 7faba56088fb09c47bf67edbcae2df54, type: 3}
-      propertyPath: m_PlayOnAwake
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
